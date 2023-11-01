@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+text-align: center;
+font-family: "arial";
+}
+
+h2 {
+text-align: center;
+font-family: "arial";
+text-decoration: underline black 1px;
+font-weight: 100;
+font-size: 15px;
+}
+
+nav {
+	background: black;
+	width: 100%;
+	height: 50px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	padding: 30px; 
+}
+
+#right
+{
+float: right;
+}
+section
+{
+background:#C8AEAE;
+	text-align: center;
+	font-weight: 200;
+	
+}
+.title
+{
+	text-align: left;
+}
+.billede1{
+width: 95%;
+height: 80px;
+margin: 25px;
+		
+}
+
