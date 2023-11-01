@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{background: royalblue;
+border: 5px solid black;
+}
+li {
+	display: inline;
+	background: black;
+	color: white
+}
+
+.test
+{
+	padding: 40px;
+	margin: 30px;
+	
+}
+h1 {
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 45px;
+	text-align: center;
+	text-decoration: underline black 16px
+}
+img {
+	float:right
+}
