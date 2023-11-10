@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+* 
+{Background: yellow;}
+
+.red {
+background: red;
+width: 500px;
+height: 50px;
+}
+.blue {
+background: blue;
+max-width: 500px;
+height: 50px;
+}
+.green {
+background: green;
+min-width: 500px;
+height: 50px;
+}
+.purple {
+background: purple;
+width: 50%;
+min-width: 100px;
+height: 50px;
+position: sticky; 
+top: 10px;
+right: 10px;
+}
+@media screen and (max-width:500px) 
+{
+.red, .blue, .green, .purple 
+	{width: 100px;
+	min-width: 100px;
+}
+}
+
+p{
+font-size: 25;
+background: lightgrey;
+Text-align: center;
+Width: 200px;
+margin: 2px;
+flex-grow: 1;
+
+}
+
+.flexbox{
+background: black;
+display: flex;
+flex-flow: wrap;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.grid {
+background: black;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr 1fr;
+grid-template-row: 200px 200px 20px;
+gap: 10px;
+}
+
+.one {
+/*grid-column: 1/ span 3;
+grid-row: 1/ span 3;*/
+grid-area: 1/3/3/1
+}

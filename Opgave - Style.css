@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-color: #645094;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 100px;
+}
+
+.box, .box2, .box3 {
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.box {
+ grid-column-start: 2;
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 20px
+}
+	
+.box p {
+color: black;
+text-align: center;
+font-family:  Segoe UI;
+
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:hover {
+text-decoration: underline;
+}
+.box2 {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 20px; 
+	
+}
+.box2 p {
+  color: black;
+  text-align: center;
+ font-family:  Segoe UI
+}
+.box3 {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 20px;
+	
+	
+	
+}
+.box3 p {
+  color: black;
+  text-align: center;
+font-family:  Segoe UI
+}
+h1{
+text-align: center;
+font-family: Segoe UI;
+font-weight: 300
+}
+
+h2{
+text-align: center;
+font-family: French Script MT;
+font-size: 70px;
+font-weight: 300
+}

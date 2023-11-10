@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background: #645094
+}
+h1{
+text-align: center;
+font-family: French Script MT;
+font-size: 70px;
+font-weight: 300
+}
+p{
+max-width: 350px
+}
+a{
+text-decoration: none;
+color: black
+}
+a:hover{
+text-decoration: underline 
+}
+h2{
+font-family:  Segoe UI;
+}
+h3{
+font-family:  Segoe UI;
+}
+.box{
+position: relative;
+ width: 200px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 20px
+}
+.box2{
+position: absolute;
+top: 450%;
+ width: 100px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 20px
+}

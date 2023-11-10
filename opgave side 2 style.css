@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+position: relative; top: -300px;
+max-width: 500px
+}
+
+.Mig{
+position: relative; left: 700px; 
+}
+
+p1{
+position: relative; top: -200px;
+max-width: 300px
+}
+
+ <!-- jeg ønskede at få teksten til at matche mit design i xd fra sidste opgave. jeg kan godt få lov til at ændre på positioningen, ihvertfald til p1, lige nu vil p2 heller ikke mere, men min max-width vil bare ikke virke, og jeg kan ikke finde ud af hvorfor. jeg ved faktisk ikke engang om den her kommentar er skrevet rigtigt, men lige nu tror jeg bare dreamweaver er sur på mig. -->
+
+p2{
+position: relative; top: -800px;
+max-width: 500px;
+}
+
+a{
+text-decoration: none;
+color: black
+}
+a:hover{
+text-decoration: underline 
+}
