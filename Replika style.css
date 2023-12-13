@@ -1,3 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
+.header-grid {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-content: center
+}
+
+.main-color-grid{
+background-color: aqua
+}
+.header-logo, .header-title, .header-searchbar {
+
+text-align: center; 
+
+}
+
+.picture-grid {
+	
+display: grid;
+	
+grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+grid-column-gap: 10%;
+
+grid-row-gap: -20%;
+	
+grid-template-rows: 300px 300px;
+	
+}
+
+
+
+.picture-grid img{
+max-height: 100%;
+max-width: 100px
+
+}
+
