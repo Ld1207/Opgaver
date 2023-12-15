@@ -2,20 +2,37 @@
 /* CSS Document */
 
 .header-grid {
-
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-align-content: center
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
 }
 
-.main-color-grid{
-background-color: aqua
+.main-color-grid {
+  background-color: aqua;
 }
-.header-logo, .header-title, .header-searchbar {
 
-text-align: center; 
-
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; 
 }
+
+.header-logo {
+  width: 50px; 
+  height: auto; 
+  margin-left: 10px; 
+}
+
+.header-title, .header-searchbar {
+  text-align: center;
+}
+
+.header-logo img {
+  max-height: 50px; 
+  max-width: 50px;
+}
+
 
 .picture-grid {
 	
@@ -34,7 +51,7 @@ grid-template-rows: 200px 200px;
 
 
 .picture-grid img{
-max-height: 100%;
+max-height: 100px;
 max-width: 100px
 
 }
