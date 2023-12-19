@@ -63,6 +63,7 @@ max-height: 150px;
 
 .forside-grid{
 display: flex;
+grid-column: 2/3;
 }
 
 .sidebar{
