@@ -63,4 +63,36 @@ max-height: 150px;
 }
 
 
+.main-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.sidebar {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.sogeresultater {
+    display: grid;
+    gap: 20px;
+}
+
+.sogeresultat-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.sogeresultat-box img {
+    max-width: 100%; 
+    height: auto;
+    margin-right: 10%; 
+}
+
+
 
