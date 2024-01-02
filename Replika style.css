@@ -74,8 +74,7 @@ grid-template-columns: 10% 1fr auto;
 }
 
 .sidebar {
-background-color: #CF1F1F; 
-color: #FFFFFF;
+color: #000000;
 padding: 10%;
 box-sizing: border-box;
 margin-right: 5%
@@ -84,7 +83,7 @@ margin-right: 5%
 .kategori {
 cursor: pointer;
 margin-bottom: 10px;
-border: 1px solid #000000;
+border: 2px solid #CF1F1F;
 border-radius: 5px;
 }
 
@@ -92,14 +91,14 @@ border-radius: 5px;
 .kategori.aktiv {
 margin: 2px;
 font-size: 20px;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 20px #CF1F1F;
 transform: scale(1.1);
 }
 
 .kategori:not(.aktiv):hover {
 margin: 2px;
 font-size: 20px;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 20px #CF1F1F;
 transform: scale(1.1);
 }
 
