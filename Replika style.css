@@ -5,10 +5,15 @@
     initial-scale: 1;
  }
 
-
+body {
+ margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, white 70%, #28B3E6);
+}
 
 .main-color-grid {
-background-color:#263CCB;
+background-color:#28B3E6;
 }
 
 .header-container {
@@ -20,11 +25,11 @@ align-items: center;
 
 .header-title {
 grid-column: 1;
-color:#CF1F1F;
+color:#FFFFFF;
 text-align: center;
 }
 .header-title-container{
-background-color: #FFFFFF;
+background-color: #28B3E6;
 display: inline-block;
 padding: 4%;
 max-width: 40%;
@@ -83,7 +88,7 @@ margin-right: 5%
 .kategori {
 cursor: pointer;
 margin-bottom: 10px;
-border: 2px solid #CF1F1F;
+border: 2px solid #15B776;
 border-radius: 5px;
 }
 
@@ -91,14 +96,14 @@ border-radius: 5px;
 .kategori.aktiv {
 margin: 2px;
 font-size: 20px;
-box-shadow: 0 0 20px #CF1F1F;
+box-shadow: 0 0 20px #15B776;
 transform: scale(1.1);
 }
 
 .kategori:not(.aktiv):hover {
 margin: 2px;
 font-size: 20px;
-box-shadow: 0 0 20px #CF1F1F;
+box-shadow: 0 0 20px #15B776;
 transform: scale(1.1);
 }
 
