@@ -2,10 +2,10 @@
 /* CSS Document */
 
 body {
- margin: 0;
-            padding: 0;
-            height: 100vh;
-            background: linear-gradient(to bottom, white 70%, #28B3E6);
+margin: 0;
+padding: 0;
+height: 150vh;
+background: linear-gradient(to bottom, white 20%, #28B3E6);
 }
 
 .main-color-grid {
@@ -23,6 +23,10 @@ align-items: center;
 grid-column: 1;
 color:#FFFFFF;
 text-align: center;
+}
+
+a {
+text-decoration: none;
 }
 .header-title-container{
 background-color: #28B3E6;
@@ -76,8 +80,40 @@ max-height: 150px;
 }
 
 .sidebar {
-    background-color: #f2f2f2;
-    padding: 10px;
+color: #000000;
+padding: 10%;
+box-sizing: border-box;
+margin-right: 5%
+}
+
+.underside-kategori {
+cursor: pointer;
+margin-bottom: 10px;
+border: 2px solid #15B776;
+border-radius: 5px;
+}
+
+.underside-kategori2 {
+cursor: pointer;
+margin-bottom: 10px;
+border: 2px solid #15B776;
+border-radius: 5px;
+}
+
+.underside-kategori:hover,
+.kategori.aktiv {
+margin: 2px;
+font-size: 20px;
+box-shadow: 0 0 20px #15B776;
+transform: scale(1.1);
+}
+
+.underside-kategori2:hover,
+.kategori.aktiv {
+margin: 2px;
+font-size: 20px;
+box-shadow: 0 0 20px #15B776;
+transform: scale(1.1);
 }
 
 .content {
@@ -96,7 +132,7 @@ max-height: 150px;
 }
 
 .sogeresultat-box img {
-    max-width: 100%; 
+    max-width: 50%; 
     height: auto;
     margin-right: 10%; 
 }
