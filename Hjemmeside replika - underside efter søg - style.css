@@ -4,7 +4,7 @@
 body {
 margin: 0;
 padding: 0;
-height: 230vh;
+height: 250vh;
 background: linear-gradient(to bottom, white 5%, #28B3E6);
 }
 
@@ -40,6 +40,7 @@ max-width: 40%;
 grid-column: 2;
 display: flex;
 align-items: center;
+font-family: Montserrat,sans-serif;
 }
 
 .header-searchbar input[type="text"] {
@@ -117,9 +118,6 @@ box-shadow: 0 0 20px #15B776;
 transform: scale(1.1);
 }
 
-.content {
-    padding: 10%;
-}
 
 .sogeresultater {
     display: grid;
@@ -132,8 +130,11 @@ transform: scale(1.1);
     grid-template-columns: auto 1fr;
     align-items:center;
 	text-align: end;
-	border: 2px solid #FFFFFF;
-	width: 600%
+	font-size: 220%;
+	color: #000000;
+	border: 2px solid #15B776;
+	margin-left: 10%;
+	width: 480%
 		
 }
 
