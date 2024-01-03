@@ -4,8 +4,8 @@
 body {
 margin: 0;
 padding: 0;
-height: 150vh;
-background: linear-gradient(to bottom, white 20%, #28B3E6);
+height: 230vh;
+background: linear-gradient(to bottom, white 5%, #28B3E6);
 }
 
 .main-color-grid {
@@ -23,6 +23,7 @@ align-items: center;
 grid-column: 1;
 color:#FFFFFF;
 text-align: center;
+font-family: Montserrat,sans-serif;
 }
 
 a {
@@ -117,18 +118,23 @@ transform: scale(1.1);
 }
 
 .content {
-    padding: 10px;
+    padding: 10%;
 }
 
 .sogeresultater {
     display: grid;
-    gap: 20px;
+    gap: 20%;
+	
 }
 
 .sogeresultat-box {
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
+    align-items:center;
+	text-align: end;
+	border: 2px solid #FFFFFF;
+	width: 600%
+		
 }
 
 .sogeresultat-box img {
@@ -137,5 +143,6 @@ transform: scale(1.1);
     margin-right: 10%; 
 }
 
-
-
+p{
+font-family: Montserrat,sans-serif;
+}

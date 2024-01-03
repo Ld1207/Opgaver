@@ -27,6 +27,7 @@ align-items: center;
 grid-column: 1;
 color:#FFFFFF;
 text-align: center;
+	font-family: Montserrat,sans-serif;
 }
 .header-title-container{
 background-color: #28B3E6;
@@ -120,3 +121,6 @@ max-height: 100px;
 max-width: 100px;
 }
 
+p{
+font-family: Montserrat,sans-serif;
+}
