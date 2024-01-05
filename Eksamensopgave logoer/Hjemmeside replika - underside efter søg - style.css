@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin: 0;
+padding: 0;
+height: 250vh;
+background: linear-gradient(to bottom, white 5%, #28B3E6);
+}
+
+.main-color-grid {
+background-color:#28B3E6;
+}
+
+.header-container {
+display: grid;
+grid-template-columns: 2fr 4fr 1fr 1fr;
+align-items: center; 
+}
+
+
+.header-title {
+grid-column: 1;
+color:#FFFFFF;
+text-align: center;
+font-family: Montserrat,sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+.header-title-container{
+background-color: #28B3E6;
+display: inline-block;
+padding: 4%;
+max-width: 40%;
+}
+
+.header-searchbar{
+grid-column: 2;
+display: flex;
+align-items: center;
+font-family: Montserrat,sans-serif;
+}
+
+.header-searchbar input[type="text"] {
+flex-grow: 2;
+padding:5px
+}
+
+.header-searchbar button {
+margin-left:5px
+}
+
+.header-logo {
+grid-column 1fr;
+margin-left: auto;
+max-height: 50px
+}
+
+.white-header-box{
+background-color: #FFFFFF;
+max-height: 40px;
+border-radius: 5px;
+margin-right: 10%;
+grid-column: 4;
+}
+
+.white-header-box p {
+margin:1px;
+}
+
+.reklame-banner img{
+width: 100%;
+max-height: 150px;
+}
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.sidebar {
+color: #000000;
+padding: 10%;
+box-sizing: border-box;
+margin-right: 5%
+}
+
+.underside-kategori {
+cursor: pointer;
+margin-bottom: 10px;
+border: 2px solid #15B776;
+border-radius: 5px;
+}
+
+.underside-kategori2 {
+cursor: pointer;
+margin-bottom: 10px;
+border: 2px solid #15B776;
+border-radius: 5px;
+}
+
+.underside-kategori:hover,
+.kategori.aktiv {
+margin: 2px;
+font-size: 20px;
+box-shadow: 0 0 20px #15B776;
+transform: scale(1.1);
+}
+
+.underside-kategori2:hover,
+.kategori.aktiv {
+margin: 2px;
+font-size: 20px;
+box-shadow: 0 0 20px #15B776;
+transform: scale(1.1);
+}
+
+
+.sogeresultater {
+    display: grid;
+    gap: 20%;
+	
+}
+
+.sogeresultat-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:center;
+	text-align: end;
+	font-size: 220%;
+	color: #000000;
+	border: 2px solid #15B776;
+	margin-left: 10%;
+	width: 480%
+		
+}
+
+.sogeresultat-box img {
+    max-width: 50%; 
+    height: auto;
+    margin-right: 10%; 
+}
+
+p{
+font-family: Montserrat,sans-serif;
+}
